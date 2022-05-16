@@ -1,0 +1,43 @@
+
+.t-form-text.form-control {
+  background-color: #282c34;
+  color: white;
+  resize: none;
+  border: transparent;
+  outline: 1px solid white;
+  border-bottom: 50px solid transparent;
+  border-top: 6px solid transparent;
+ 
+}
+
+.t-form-text:focus {
+  background-color: #282c34;
+  color: white;
+}
+
+.button-error-row{
+margin-top: -50px;
+align-items: center;
+} 
+
+.button-col {
+    padding-right:17px;
+}
+
+.loader-row{
+  position: relative;
+  top: 20px;
+
+}
+
+ span{
+    border: 1px solid white;
+    padding: 5px 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: #F5C6CB;
+    background-color: #F8D7DA;
+    color: #721C24;
+}
+
+

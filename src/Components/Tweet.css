@@ -1,0 +1,10 @@
+.tweet-container-col{
+    border-radius: 5px;
+    text-align: start;
+    background-color: #343A40;
+}
+
+.tweet-user, .tweet-date{
+    font-size: 14px;
+    color: #6C757D;
+}
