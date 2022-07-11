@@ -39,7 +39,7 @@ export const db = getFirestore(app);
 export async function getData(collectionName, db, setStateCb, unsubscribe, order) {
   try {
     const collectionRef = collection(db, collectionName);
-    const q = query(collectionRef, orderBy(order, "desc"), limit(10));
+    const q = query(collectionRef, orderBy(order, "desc"));
     await getDocs(q);
     unsubscribe = onSnapshot(q, (querySnapshot) => {
       let data = querySnapshot.docs.map((doc) => ({
